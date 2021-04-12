@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <title>CinePequi</title>
+</head>
+<body class="conteudo">
+    <header>
+        <div class="container">
+            <h2 class="logo">CINEPEQUI</h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+            <form class="filme-pesquisar">
+                <input type="text" placeholder="Buscar.." name="buscar">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
+        </div>
+    </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">HOUSE OF CARDS</h3>
+                <p class="descricao">Um político inescrupuloso não mede esforços para conquistar o poder nos EUA neste drama vencedor do Emmy e do Globo de Ouro.</p>
+
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR
+                    </button>
+        
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFO
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="filme-carrosel">
+        <div class="owl-carousel owl-theme">
+            <div class="item" onclick="cliqueFilme(0)">
+                <img class="box-filme" src="images/mini0.jpg" alt="" srcset="">              
+            </div>            
+            <div class="item" onclick="cliqueFilme(1)">
+                <img class="box-filme" src="images/mini1.jpg" alt="" srcset="">              
+            </div>
+            <div class="item"  onclick="cliqueFilme(2)">
+                <img class="box-filme" src="images/mini2.jpg" alt="" srcset="">              
+            </div>
+            <div class="item"  onclick="cliqueFilme(3)">
+                <img class="box-filme" src="images/mini3.jpg" alt="" srcset="">              
+            </div>
+            <div class="item"  onclick="cliqueFilme(4)">
+                <img class="box-filme" src="images/mini4.jpg" alt="" srcset="">              
+            </div>
+            <div class="item"  onclick="cliqueFilme(5)">
+                <img class="box-filme" src="images/mini5.jpg" alt="" srcset="">              
+            </div>
+            <div class="item"  onclick="cliqueFilme(6)">
+                <img class="box-filme" src="images/mini6.jpg" alt="" srcset="">              
+            </div>
+            <div class="item"  onclick="cliqueFilme(7)">
+                <img class="box-filme" src="images/mini7.jpg" alt="" srcset="">              
+            </div>
+            <div class="item"  onclick="cliqueFilme(8)">
+                <img class="box-filme" src="images/mini8.jpg" alt="" srcset="">              
+            </div>
+            <div class="item"  onclick="cliqueFilme(9)">
+                <img class="box-filme" src="images/mini9.jpg" alt="" srcset="">              
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/main.js"></script>
+</body>
+</html>
